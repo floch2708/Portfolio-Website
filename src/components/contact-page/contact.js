@@ -1,13 +1,19 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Typography} from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
+
 
 export const Contact = () => {
 	return (
 
-		<>
-
-		<h1>Hello from contact page</h1>
-
+		<>	
+		<main>
+      	<Typography style={{ alignItems: "center" }}>
+			Hello from contact page
+		</Typography>
+		</main>
 		</>
 
 		)

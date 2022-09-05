@@ -6,12 +6,15 @@ import { Contact } from './components/contact-page/contact';
 import { Project } from './components/project-page/project';
 import { Navbar } from "./components/navbar";
 import { Box } from "@mui/material";
+import CssBaseline from '@mui/material/CssBaseline';
 
 
 export const App = () => {
   return (
 
     <>
+
+      <CssBaseline/>
       <Box>
         <Navbar/>
       </Box>
